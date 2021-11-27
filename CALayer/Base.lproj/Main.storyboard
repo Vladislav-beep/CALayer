@@ -33,7 +33,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="Tap me!"/>
                                 <connections>
-                                    <segue destination="emS-VV-agL" kind="show" id="Qz1-L5-mRq"/>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9UU-4B-Ml2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,6 +49,7 @@
                     <connections>
                         <outlet property="button" destination="BBI-kJ-xpD" id="a3l-le-dBj"/>
                         <outlet property="imageView" destination="SyY-lt-YI5" id="JMB-jE-07Q"/>
+                        <segue destination="emS-VV-agL" kind="show" identifier="show" id="4uf-yl-Snb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
