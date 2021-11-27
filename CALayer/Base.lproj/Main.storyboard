@@ -36,12 +36,23 @@
                                     <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9UU-4B-Ml2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wh2-lb-n4F" customClass="Button" customModule="CALayer" customModuleProvider="target">
+                                <rect key="frame" x="144.5" y="483" width="125" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="7AH-Tb-6TG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="125" id="VcB-hj-Tuf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BBI-kJ-xpD" secondAttribute="bottom" constant="58" id="FG2-sm-HvI"/>
+                            <constraint firstItem="Wh2-lb-n4F" firstAttribute="top" secondItem="SyY-lt-YI5" secondAttribute="bottom" constant="117" id="G3z-TN-eH1"/>
                             <constraint firstItem="SyY-lt-YI5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="82" id="G7T-s3-ADl"/>
+                            <constraint firstItem="Wh2-lb-n4F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PMz-MQ-WAr"/>
                             <constraint firstItem="SyY-lt-YI5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gpd-vR-sTm"/>
                             <constraint firstItem="BBI-kJ-xpD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qLO-Og-w0p"/>
                         </constraints>

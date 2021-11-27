@@ -104,4 +104,6 @@ class ViewController: UIViewController, CAAnimationDelegate  {
     func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
         performSegue(withIdentifier: "show", sender: self)
     }
+    
+  
 }
